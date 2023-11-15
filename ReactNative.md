@@ -72,7 +72,8 @@ yarn eslint --init
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -81,7 +82,7 @@ yarn eslint --init
   },
   "plugins": ["@typescript-eslint", "react"],
   "rules": {
-    "indent": ["error", 4],
+    "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"]
