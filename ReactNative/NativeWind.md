@@ -64,7 +64,7 @@ module.exports = function (api) {
 > This config file should not be called as nativewind.d.ts
 
 ```javascript
-<reference types="nativewind/types" />
+/// <reference types="nativewind/types" />
 ```
 
 ## Troubleshooting
